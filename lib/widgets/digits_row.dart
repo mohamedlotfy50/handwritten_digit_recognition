@@ -36,7 +36,7 @@ class DigitsRow extends StatelessWidget {
                   '$i',
                   style: TextStyle(
                     color: Colors.white
-                        .withOpacity(getAccurecy(i, _provider.predection) * 2),
+                        .withOpacity(getAccurecy(i, _provider.predection)),
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
                   ),
