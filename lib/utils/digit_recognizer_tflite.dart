@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:digit_recognizer/models/prediction_model.dart';
+import '../models/prediction_model.dart';
 import 'package:image/image.dart';
 import 'package:tflite/tflite.dart';
 

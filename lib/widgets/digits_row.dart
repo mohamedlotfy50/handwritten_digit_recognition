@@ -1,5 +1,5 @@
-import 'package:digit_recognizer/models/prediction_model.dart';
-import 'package:digit_recognizer/provider/drawer_provider.dart';
+import '../models/prediction_model.dart';
+import '../provider/drawer_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

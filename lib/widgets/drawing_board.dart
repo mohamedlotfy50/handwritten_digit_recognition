@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:digit_recognizer/provider/drawer_provider.dart';
+import '../provider/drawer_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

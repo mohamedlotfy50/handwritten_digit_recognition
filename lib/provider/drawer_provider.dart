@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 
-import 'package:digit_recognizer/models/prediction_model.dart';
-import 'package:digit_recognizer/utils/canvas_to_image.dart';
-import 'package:digit_recognizer/utils/digit_recognizer_tflite.dart';
+import '../models/prediction_model.dart';
+import '../utils/canvas_to_image.dart';
+import '../utils/digit_recognizer_tflite.dart';
 import 'package:flutter/material.dart';
 import 'package:image/image.dart' as img;
 

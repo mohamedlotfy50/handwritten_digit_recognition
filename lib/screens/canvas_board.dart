@@ -1,6 +1,6 @@
-import 'package:digit_recognizer/provider/drawer_provider.dart';
-import 'package:digit_recognizer/widgets/digits_row.dart';
-import 'package:digit_recognizer/widgets/drawing_board.dart';
+import '../provider/drawer_provider.dart';
+import '../widgets/digits_row.dart';
+import '../widgets/drawing_board.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
