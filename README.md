@@ -1,5 +1,5 @@
-# Digit recognition
-It's a fun project to try convolutional neural networks and test,  And test understanding for the computer vision theorise, and testing connections between tflite and flutter.
+# Handwritten digit recognition
+It's a fun project to try convolutional neural networks, And test understanding for the computer vision theorise, and testing connections between tflite and flutter.
 
 ## Features
 - Finger drawing on canvas
@@ -23,9 +23,9 @@ model = Sequential([
     Conv2D(32, (3, 3), activation=tf.nn.relu),
     MaxPool2D(pool_size=(2, 2)),
     Flatten(),
-    Dense(units=128, activation=tf.nn.relu),
-    Dense(units=128, activation=tf.nn.relu),
-    Dense(units=10, activation=tf.nn.softmax),
+    Dense(128, activation=tf.nn.relu),
+    Dense(128, activation=tf.nn.relu),
+    Dense(10, activation=tf.nn.softmax),
 ])
 ```
 Defining the model optimizer , loss and the accuracy matrix
@@ -45,7 +45,7 @@ open('digits_recognition.tflite','wb').write(new_tf_model)
 ```
 ## Use model in flutter app
 
-first app the model location to flutter pubspec.yaml
+first add the model location to flutter pubspec.yaml
 
 ```
 flutter:
